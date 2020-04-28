@@ -1,0 +1,80 @@
+body {
+  background: url("background.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.navbar {
+  position: fixed;
+  margin: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  border-bottom: 1px solid black;
+  cursor: default;
+  user-select: none;
+  background: rgba(0, 0, 45, 0.1);
+}
+
+.navbar > div, .navbar > a {
+  margin: 0 20px;
+  display: inline-block;
+  padding: 7px;
+}
+
+.navbar > a:not(.title) {
+  float: right;
+}
+
+.title {
+  font-family: 'Audiowide', cursive;
+  font-size: 1.2em;
+}
+
+.btn {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  border-radius: 10px;
+  background: #000000;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+div.center {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  width: 100%;
+  top: 35%;
+}
+
+.center-text {
+  margin: 50px auto;
+  width: 60%;
+  font-family: 'Aldrich', sans-serif;
+  font-size: 2em;
+}
+
+.center-text-2 {
+  margin: 0 auto;
+  width: 60%;
+  font-family: 'Aldrich', sans-serif;
+  font-size: 1.6em;
+}
+
+.center-button {
+  margin: 50px;
+}
+
+.center-button a {
+  padding: 10px;
+  font-family: 'Aldrich', sans-serif;
+}
