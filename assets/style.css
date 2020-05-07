@@ -78,3 +78,9 @@ div.center {
   padding: 10px;
   font-family: 'Aldrich', sans-serif;
 }
+
+.changelog-iframe {
+  width: 100%;
+  height: 80vh;
+  border: none;
+}
